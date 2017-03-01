@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+.fieldset-auto-width { display: inline-block; }
+
+</style>
+<link rel="StyleSheet" href="mystyles.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+	<h1></h1>
+	</div>
+	<div id="leftcolumn">
+	<hr>
+	<h4>Contact Us</h4>
+	<hr>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="links.html">Links</a></li>
+	<li><a href="images.html">Images</a></li>
+	<li><a href="contacts.html">Staff</a></li>
+	<li><a href="form.html">Contact Us</a></li>
+	</ul>
+	</div>
+	<div id="rightcolumn">
+		<div id="content">
+		<form method="post" action="https://www.tarleton.edu/scripts/wel.pl">
+
+		<input type="hidden" name="to" value="issac.wilcher@go.tarleton.edu" />
+
+		<input type="hidden" name="subject" value="Web Feedback" />
+
+		<fieldset>
+		<legend>Your info</legend>
+		<label>First name: <input type="text" name="fname" required>*</label>
+		<br>
+		Last name: <input type="text" name="lname" required>*</label>
+		<br>
+		<label>E-Mail: <input type="email" name="Email" required>*</label>
+		<br>
+		<label>Telephone: <input type="tel" name="phone"></label>
+		<br>
+			<fieldset class="fieldset-auto-width">
+			<legend>Preferred method of contact</legend>
+			<input type="radio" name="contactby" value="email" checked>By E-Mail
+			<br>
+			<input type="radio" name="contactby" value="tel">By Phone
+			</fieldset>
+		</fieldset>
+		<br>
+		<br>
+		
+		<fieldset>
+		<legend>Reason for contacting</legend>
+		<label>I would like to learn more about:</label>
+		<input type="checkbox" name="learnmore" value="location">Location
+		<input type="checkbox" name="learnmore" value="volunteering">Volunteering
+		<input type="checkbox" name="learnmore" value="activities">Activites
+		(Check all that apply)
+		<br><br>
+		Your Comments:
+		<br>
+		<textarea name="Comments" cols="30" rows="4"></textarea>
+		<br><br>
+		Have you visited the park?
+		<select name="visit">
+		<option>Select</option>
+		<option value="y,loved">Yes, I go all the time!</option>
+		<option value="y,great">Yes, it was great!</option>
+		<option value="y,okay">Yes, it was okay.</option>
+		<option value="y,hate">Yes, and I hated it.</option>
+		<option value="n,want">No, but I want to.</option>
+		<option value="n,dont">No, and I don't want to.</option>
+		</select>
+		</fieldset>
+		<br>
+		*required field
+		<br>		
+		<input type="reset" value="Clear form">
+		<input type="submit" value="Submit">
+
+		<input name="next_url" type="hidden" value="formthankyou.html">
+	
+		</form>
+		
+		</div>
+
+		<div id="footer">
+		<h6>&copy;Copyright info 1995</h6>
+		</div>
+	</div>
+</div>
+</body>
+</html>

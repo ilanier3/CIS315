@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Contact Us</title>
+<style>
+.fieldset-auto-width { display: inline-block; }
+
+</style>
+<link rel="StyleSheet" href="mystyles.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+	<h1></h1>
+	</div>
+	<div id="leftcolumn">
+	<hr>
+	<h4>Contact Us</h4>
+	<hr>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="links.html">Links</a></li>
+	<li><a href="images.html">Images</a></li>
+	<li><a href="contacts.html">Contact Us</a></li>
+	</ul>
+	</div>
+	<div id="rightcolumn">
+		<div id="content">
+		<form method="post" action="https://www.tarleton.edu/scripts/wel.pl">
+
+		<input type="hidden" name="to" value="issac.wilcher@go.tarleton.edu" />
+
+		<input type="hidden" name="subject" value="Web Feedback" />
+
+		<fieldset>
+		<legend>Your info</legend>
+		<label>First name: <input type="text" name="fname" required>*</label>
+		<br>
+		Last name: <input type="text" name"lname" required>*</label>
+		<br>
+		<label>E-Mail: <input type="email" required>*</label>
+		<br>
+		<label>Telephone: <input type="tel"></label>
+		<br>
+			<fieldset class="fieldset-auto-width">
+			<legend>Preferred method of contact</legend>
+			<input type="radio" name="contact" value="email" checked>By E-Mail
+			<br>
+			<input type="radio" name="contact" value="tel">By Phone
+			</fieldset>
+		</fieldset>
+		<br>
+		<br>
+		
+		<fieldset>
+		<legend>Reason for contacting</legend>
+		<label>I would like to learn more about:</label>
+		<input type="checkbox" name="learn" value="location">Location
+		<input type="checkbox" name="learn" value="volunteering">Volunteering
+		<input type="checkbox" name="learn" value="activities">Activites
+		(Check all that apply)
+		<br>
+		Your Comments:
+		<br>
+		<textarea cols="30" rows="4"></textarea>
+		<br>
+		Have you visited the park?
+		<select name="visit">
+		<option value="blank"></option>
+		<option value="10">Yes, I go all the time!</option>
+		<option value="7">Yes, it was great!</option>
+		<option value="5">Yes, it was okay.</option>
+		<option value="4">Yes, and I hated it.</option>
+		<option value="3">No, but I want to.</option>
+		<option value="1">No, and I don't want to.</option>
+		</select>
+		</fieldset>
+		<br>		
+		<input type="reset" value="Clear form">
+		<input type="submit" value="Submit">
+	
+		</form>
+		
+		</div>
+
+		<div id="footer">
+		<h6>&copy;Copyright info 1995</h6>
+		</div>
+	</div>
+</div>
+</body>
+</html>

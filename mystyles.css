@@ -1,0 +1,46 @@
+body {		background-color:#CC9900; }
+#wrapper {	color:#663300;
+		background-color:#CC6600;
+		width:95%;
+		margin-right:auto;
+		margin-left:auto; }
+#leftcolumn {	float:left;
+		width:150px;
+		margin-left:2px;
+		margin-top:-12px; }
+#leftcolumn h4 {margin-left: 7px;}
+#leftcolumn hr {margin-top:12px;}
+#rightcolumn {	background-color:#CC9900;
+		margin-left:155px; }
+#rightcolumn img {	position:relative;
+			left:30px; }
+#header {	background-image: url("images/stephenvillelogo.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		margin-top:auto;
+
+		background-color:#CC6600;
+		height:135px; }
+#footer {	background-color:#CC6600;
+		color:#663300; }
+#content {	padding: 10px 20px;
+		overflow: auto; }
+ul {	list-style-image:url(images/leafbullet.png) }
+h1 {	background-image: url("images/BRC_logo.jpg");
+	background-repeat: no-repeat;
+	height: 100px; width: 300px; font-size: 3em;
+	margin-left:10px;
+	border: 1px solid #33CC00;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	-webkit-box-shadow: 5px 5px 5px #828282;
+	-moz-box-shadow: 5px 5px 5px #828282;
+	box-shadow: 5px 5px 5px #828282; }
+h4 {	color:#663300; }
+h6 {	color:#C0C0C0;
+	font-family:arial; }
+p  {	color:#663300; }
+a:hover {	text-decoration:none; 
+		color:#663300; }
